@@ -11,6 +11,17 @@
 		232644712B96A80600A54B95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232644702B96A80600A54B95 /* ContentView.swift */; };
 		232644732B96A80700A54B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 232644722B96A80700A54B95 /* Assets.xcassets */; };
 		232644762B96A80700A54B95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 232644752B96A80700A54B95 /* Preview Assets.xcassets */; };
+		2326447D2B96A8CA00A54B95 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2326447C2B96A8CA00A54B95 /* .gitignore */; };
+		2326447F2B96ABD800A54B95 /* BasicGetterExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2326447E2B96ABD800A54B95 /* BasicGetterExamples.swift */; };
+		232644812B96ABE300A54B95 /* BasicSetterExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232644802B96ABE300A54B95 /* BasicSetterExampleView.swift */; };
+		2385BD852B96AD94009AA064 /* GettersExamplesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2385BD842B96AD94009AA064 /* GettersExamplesView.swift */; };
+		2385BD872B96ADAA009AA064 /* SettersExamplesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2385BD862B96ADAA009AA064 /* SettersExamplesView.swift */; };
+		2385BD892B96B0D8009AA064 /* GettersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2385BD882B96B0D8009AA064 /* GettersViewModel.swift */; };
+		2385BD8B2B96B0E0009AA064 /* GettersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2385BD8A2B96B0E0009AA064 /* GettersModel.swift */; };
+		2385BD8D2B96B40A009AA064 /* SettersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2385BD8C2B96B40A009AA064 /* SettersViewModel.swift */; };
+		2385BD8F2B96B416009AA064 /* SettersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2385BD8E2B96B416009AA064 /* SettersModel.swift */; };
+		2385BD912B96B52D009AA064 /* AdvancedSettersExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2385BD902B96B52D009AA064 /* AdvancedSettersExampleView.swift */; };
+		2385BD932B96B555009AA064 /* AdvancedGettersExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2385BD922B96B555009AA064 /* AdvancedGettersExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		232644702B96A80600A54B95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		232644722B96A80700A54B95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		232644752B96A80700A54B95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2326447C2B96A8CA00A54B95 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2326447E2B96ABD800A54B95 /* BasicGetterExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicGetterExamples.swift; sourceTree = "<group>"; };
+		232644802B96ABE300A54B95 /* BasicSetterExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicSetterExampleView.swift; sourceTree = "<group>"; };
+		2385BD842B96AD94009AA064 /* GettersExamplesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettersExamplesView.swift; sourceTree = "<group>"; };
+		2385BD862B96ADAA009AA064 /* SettersExamplesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettersExamplesView.swift; sourceTree = "<group>"; };
+		2385BD882B96B0D8009AA064 /* GettersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettersViewModel.swift; sourceTree = "<group>"; };
+		2385BD8A2B96B0E0009AA064 /* GettersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettersModel.swift; sourceTree = "<group>"; };
+		2385BD8C2B96B40A009AA064 /* SettersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettersViewModel.swift; sourceTree = "<group>"; };
+		2385BD8E2B96B416009AA064 /* SettersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettersModel.swift; sourceTree = "<group>"; };
+		2385BD902B96B52D009AA064 /* AdvancedSettersExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedSettersExampleView.swift; sourceTree = "<group>"; };
+		2385BD922B96B555009AA064 /* AdvancedGettersExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedGettersExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +57,7 @@
 		232644622B96A80600A54B95 = {
 			isa = PBXGroup;
 			children = (
+				2326447C2B96A8CA00A54B95 /* .gitignore */,
 				2326446D2B96A80600A54B95 /* SwiftUI_Firebase_MVVM_Implementation_Demos_2024 */,
 				2326446C2B96A80600A54B95 /* Products */,
 			);
@@ -51,6 +74,8 @@
 		2326446D2B96A80600A54B95 /* SwiftUI_Firebase_MVVM_Implementation_Demos_2024 */ = {
 			isa = PBXGroup;
 			children = (
+				2385BD832B96AD70009AA064 /* GettersFiles */,
+				2385BD822B96AD4E009AA064 /* SettersFiles */,
 				2326446E2B96A80600A54B95 /* SwiftUI_Firebase_MVVM_Implementation_Demos_2024App.swift */,
 				232644702B96A80600A54B95 /* ContentView.swift */,
 				232644722B96A80700A54B95 /* Assets.xcassets */,
@@ -65,6 +90,46 @@
 				232644752B96A80700A54B95 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2385BD822B96AD4E009AA064 /* SettersFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2385BD862B96ADAA009AA064 /* SettersExamplesView.swift */,
+				232644802B96ABE300A54B95 /* BasicSetterExampleView.swift */,
+				2385BD902B96B52D009AA064 /* AdvancedSettersExampleView.swift */,
+				2385BD942B96B58F009AA064 /* ModelFiles */,
+			);
+			path = SettersFiles;
+			sourceTree = "<group>";
+		};
+		2385BD832B96AD70009AA064 /* GettersFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2385BD842B96AD94009AA064 /* GettersExamplesView.swift */,
+				2326447E2B96ABD800A54B95 /* BasicGetterExamples.swift */,
+				2385BD922B96B555009AA064 /* AdvancedGettersExampleView.swift */,
+				2385BD952B96B5A5009AA064 /* ModelFiles */,
+			);
+			path = GettersFiles;
+			sourceTree = "<group>";
+		};
+		2385BD942B96B58F009AA064 /* ModelFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2385BD8C2B96B40A009AA064 /* SettersViewModel.swift */,
+				2385BD8E2B96B416009AA064 /* SettersModel.swift */,
+			);
+			path = ModelFiles;
+			sourceTree = "<group>";
+		};
+		2385BD952B96B5A5009AA064 /* ModelFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2385BD882B96B0D8009AA064 /* GettersViewModel.swift */,
+				2385BD8A2B96B0E0009AA064 /* GettersModel.swift */,
+			);
+			path = ModelFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				232644762B96A80700A54B95 /* Preview Assets.xcassets in Resources */,
+				2326447D2B96A8CA00A54B95 /* .gitignore in Resources */,
 				232644732B96A80700A54B95 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +203,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2385BD932B96B555009AA064 /* AdvancedGettersExampleView.swift in Sources */,
+				2385BD872B96ADAA009AA064 /* SettersExamplesView.swift in Sources */,
 				232644712B96A80600A54B95 /* ContentView.swift in Sources */,
+				2385BD8F2B96B416009AA064 /* SettersModel.swift in Sources */,
+				2385BD892B96B0D8009AA064 /* GettersViewModel.swift in Sources */,
+				2385BD852B96AD94009AA064 /* GettersExamplesView.swift in Sources */,
+				2385BD8B2B96B0E0009AA064 /* GettersModel.swift in Sources */,
+				232644812B96ABE300A54B95 /* BasicSetterExampleView.swift in Sources */,
+				2385BD912B96B52D009AA064 /* AdvancedSettersExampleView.swift in Sources */,
+				2326447F2B96ABD800A54B95 /* BasicGetterExamples.swift in Sources */,
 				2326446F2B96A80600A54B95 /* SwiftUI_Firebase_MVVM_Implementation_Demos_2024App.swift in Sources */,
+				2385BD8D2B96B40A009AA064 /* SettersViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
