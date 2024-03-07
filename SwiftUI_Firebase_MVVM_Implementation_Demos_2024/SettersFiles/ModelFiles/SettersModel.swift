@@ -10,5 +10,9 @@ import Foundation
 struct SettersModel{
     
    
+    var toSetBook:Book
+    
+    var toSetTravelPlace:TravelPlace
+    
     
 }

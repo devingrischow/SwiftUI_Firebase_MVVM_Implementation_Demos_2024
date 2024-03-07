@@ -12,23 +12,31 @@ import Foundation
 struct GettersModel{
     
     
-    //Basic Getter Data
-    var pickedPlaceBookID:String
-    
-    var pickedBookName:String
+    var pickedBook:Book
     
     
-    //Advanced Getter Data
-    var pickedPlaceID:String
     
-    var pickedPlaceName:String
-    
-    var pickedPlaceLocation:String
-    
-    var pickedValue:Int
-    
+    var retrivedPlace:TravelPlace
     
     
    
     
+}
+
+struct Book{
+    //Basic Getter Data
+    var pickedPlaceBookID:String = ""
+    
+    var pickedBookName:String = ""
+}
+
+struct TravelPlace{
+    //Advanced Getter Data
+    var pickedPlaceID:String = ""
+    
+    var pickedPlaceName:String = ""
+    
+    var pickedPlaceLocation:String = ""
+    
+    var pickedValue:Int = 0
 }
