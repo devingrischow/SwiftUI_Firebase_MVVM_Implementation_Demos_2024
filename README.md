@@ -72,11 +72,11 @@ Advanced:
 
 ### Setter Examples:
     
-    Basic: 
-        Add a favorite book to the database with a *random Document ID*
+Basic: 
+    Add a favorite book to the database with a *random Document ID*
     
-    Advanced: 
-        Create a new travel destination **Document** with **4** Fields: `docID`, `placeName`, `placeLocation`, `value`, and then add the new document to firebase with a **DOCID** based on what the user entered for the name. 
+ Advanced: 
+    Create a new travel destination **Document** with **4** Fields: `docID`, `placeName`, `placeLocation`, `value`, and then add the new document to firebase with a **DOCID** based on what the user entered for the name. 
         
 
     
