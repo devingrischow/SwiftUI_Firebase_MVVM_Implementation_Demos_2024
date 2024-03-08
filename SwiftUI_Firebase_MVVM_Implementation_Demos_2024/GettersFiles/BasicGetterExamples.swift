@@ -13,18 +13,24 @@ struct BasicGetterExamples: View {
     
     @EnvironmentObject var advancedExampleViewModel:GettersViewModel
 
-    
+    @State private var retrievedBookTitle:String = "Book Name...."
     
     var body: some View {
         VStack{
+            
+            Text(advancedExampleViewModel.getPickedBookName())
+            
+            
             Button(){
-                print("Hello World!")
+                Task{
+                    await advancedExampleViewModel.getBookFromFirebase()
+                }
             }label: {
                 Text("Call to Firebase for a book")
             }.buttonStyle(.borderedProminent)
                 .padding()
             
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            
             
         }
     }

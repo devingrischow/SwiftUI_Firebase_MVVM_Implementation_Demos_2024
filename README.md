@@ -23,6 +23,7 @@ Once there, press on the `IOS+` button to get started with adding your firebase 
 
 Follow along with the on screen instructions to install and add firebase to a IOS+ project. 
 
+For the `Add initialization code`, create a new `.swift` file and call it `AppDelegate`, then paste in the delegate code from firebase into here. 
 
 
 
@@ -41,11 +42,30 @@ Start the database in **Test Mode**. This will let anyone access the database fo
 
 
 
-### Heres some handy Firestore Documentation
+
+
+
+### Tips for Using/Creating Collections and Documents. 
+
+Before you can add or get data to firebase, you are going to need a `Collection`. 
+
+When your on the `Firestore Database` panel, click on `Start collection` to start creating a collection. 
+
+Give the new collection a name/ID press `next`. 
+
+From there Firebase will force to to add a document before moving on. For now just generate a randomID and press next, you can delete this document later, but there must **ALWAYS** be at least 1 document in a collection, otherwise it will get **Deleted**.
+
+
+
+
+
+
+## Heres some handy Firestore Documentation
 
 - [Get Documents From Firebase](https://firebase.google.com/docs/firestore/query-data/get-data#swift_1)
 - [Preform Simple and Compound Queries(array of query results)](https://firebase.google.com/docs/firestore/query-data/queries)
-- [Add Data](https://firebase.google.com/docs/firestore/manage-data/add-data)
+- [Add Data to Firebase](https://firebase.google.com/docs/firestore/manage-data/add-data)
+
 
 
 

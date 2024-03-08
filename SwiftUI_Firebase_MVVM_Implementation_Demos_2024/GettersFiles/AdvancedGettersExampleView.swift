@@ -20,7 +20,10 @@ struct AdvancedGettersExampleView: View {
             
             
             Button(){
-                print("Hello World!")
+                //Call to the advanced object to get its values
+                Task{
+                    await advancedExampleViewModel.getRandomTravelDestination()
+                }
             }label: {
                 Text("Pick A Random Travel Desination!")
             }
@@ -33,7 +36,7 @@ struct AdvancedGettersExampleView: View {
             
             
             //Place Name
-            Text("Plain Text")
+            Text(advancedExampleViewModel.getTravelLoc())
             
             
             
@@ -49,7 +52,7 @@ struct AdvancedGettersExampleView: View {
             
             //Place Location
             //Location Of users Favorite Place
-            Text("Place Location")
+            Text(advancedExampleViewModel.getTravelLoc())
             
             
             
@@ -62,7 +65,7 @@ struct AdvancedGettersExampleView: View {
             
             
             //Place Value
-            Text("Place Value")
+            Text(advancedExampleViewModel.getTravelLoc())
             
             
             

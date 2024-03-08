@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct SwiftUI_Firebase_MVVM_Implementation_Demos_2024App: App {
+    
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

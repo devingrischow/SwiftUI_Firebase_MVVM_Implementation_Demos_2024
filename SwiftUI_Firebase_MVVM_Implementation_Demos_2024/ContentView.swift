@@ -27,11 +27,13 @@ struct ContentView: View {
         
         NavigationStack{
         TabView {
-            GettersExamplesView().tabItem {                     Label("More", systemImage: "list.bullet")
+            GettersExamplesView().tabItem {
+                Label("Getters", systemImage: "list.bullet")
  }
                 
                 
-            SettersExamplesView().tabItem {                     Label("More2", systemImage: "list.bullet")}
+            SettersExamplesView().tabItem {                     
+                Label("Setters", systemImage: "list.bullet")}
         }
             
     }

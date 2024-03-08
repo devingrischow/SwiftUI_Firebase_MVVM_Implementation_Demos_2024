@@ -32,11 +32,11 @@ struct Book{
 
 struct TravelPlace{
     //Advanced Getter Data
-    var pickedPlaceID:String = ""
+    var placeID:String = ""
     
-    var pickedPlaceName:String = ""
+    var placeName:String = ""
     
-    var pickedPlaceLocation:String = ""
+    var placeLocation:String = ""
     
-    var pickedValue:Int = 0
+    var placeValue:Int = 0
 }

@@ -20,9 +20,12 @@ struct SettersExamplesView: View {
     
     @StateObject var viewModel = SettersViewModel()
     
+   
+    
     var body: some View {
         VStack{
             Spacer()
+            
             
             
             
