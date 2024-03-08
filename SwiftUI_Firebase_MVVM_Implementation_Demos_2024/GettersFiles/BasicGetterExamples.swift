@@ -16,17 +16,17 @@ struct BasicGetterExamples: View {
     
     
     var body: some View {
-        
-        Button(){
-            print("Hello World!")
-        }label: {
+        VStack{
+            Button(){
+                print("Hello World!")
+            }label: {
                 Text("Call to Firebase for a book")
-        }.buttonStyle(.borderedProminent)
-            .padding()
-        
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-        
-        
+            }.buttonStyle(.borderedProminent)
+                .padding()
+            
+            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            
+        }
     }
 }
 

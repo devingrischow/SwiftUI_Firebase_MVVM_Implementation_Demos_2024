@@ -13,65 +13,65 @@ struct AdvancedGettersExampleView: View {
     
     var body: some View {
         
-        
-        Spacer()
-        
-        
-        
-        
-        Button(){
-            print("Hello World!")
-        }label: {
+        VStack{
+            Spacer()
+            
+            
+            
+            
+            Button(){
+                print("Hello World!")
+            }label: {
                 Text("Pick A Random Travel Desination!")
+            }
+            .buttonStyle(.borderedProminent)
+            
+            Spacer()
+            
+            
+            
+            
+            
+            //Place Name
+            Text("Plain Text")
+            
+            
+            
+            
+            
+            
+            Spacer()
+            
+            
+            
+            
+            
+            
+            //Place Location
+            //Location Of users Favorite Place
+            Text("Place Location")
+            
+            
+            
+            
+            
+            Spacer()
+            
+            
+            
+            
+            
+            //Place Value
+            Text("Place Value")
+            
+            
+            
+            
+            
+            
+            Spacer()
+            
         }
-        .buttonStyle(.borderedProminent)
-        
-        Spacer()
-        
-        
-        
-        
-        
-        //Place Name
-        Text("Plain Text")
-        
-        
-        
-        
-        
-        
-        Spacer()
-        
-        
-        
-        
-        
-        
-        //Place Location
-        //Location Of users Favorite Place
-        Text("Place Location")
-        
-        
-        
-        
-        
-        Spacer()
-        
-        
-        
-        
-        
-        //Place Value
-        Text("Place Value")
-        
-        
-        
-        
-        
-        
-        Spacer()
-        
-        
         
         
     }

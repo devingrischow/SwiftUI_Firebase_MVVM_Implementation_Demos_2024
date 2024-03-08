@@ -22,6 +22,7 @@
 		2385BD8F2B96B416009AA064 /* SettersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2385BD8E2B96B416009AA064 /* SettersModel.swift */; };
 		2385BD912B96B52D009AA064 /* AdvancedSettersExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2385BD902B96B52D009AA064 /* AdvancedSettersExampleView.swift */; };
 		2385BD932B96B555009AA064 /* AdvancedGettersExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2385BD922B96B555009AA064 /* AdvancedGettersExampleView.swift */; };
+		23F9F4FD2B996581005E42A2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 23F9F4FC2B996581005E42A2 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		2385BD8E2B96B416009AA064 /* SettersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettersModel.swift; sourceTree = "<group>"; };
 		2385BD902B96B52D009AA064 /* AdvancedSettersExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedSettersExampleView.swift; sourceTree = "<group>"; };
 		2385BD922B96B555009AA064 /* AdvancedGettersExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedGettersExampleView.swift; sourceTree = "<group>"; };
+		23F9F4FC2B996581005E42A2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		23F9F5002B9AE6A8005E42A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 		232644622B96A80600A54B95 = {
 			isa = PBXGroup;
 			children = (
+				23F9F4FC2B996581005E42A2 /* README.md */,
 				2326447C2B96A8CA00A54B95 /* .gitignore */,
 				2326446D2B96A80600A54B95 /* SwiftUI_Firebase_MVVM_Implementation_Demos_2024 */,
 				2326446C2B96A80600A54B95 /* Products */,
@@ -74,6 +78,7 @@
 		2326446D2B96A80600A54B95 /* SwiftUI_Firebase_MVVM_Implementation_Demos_2024 */ = {
 			isa = PBXGroup;
 			children = (
+				23F9F5002B9AE6A8005E42A2 /* GoogleService-Info.plist */,
 				2385BD832B96AD70009AA064 /* GettersFiles */,
 				2385BD822B96AD4E009AA064 /* SettersFiles */,
 				2326446E2B96A80600A54B95 /* SwiftUI_Firebase_MVVM_Implementation_Demos_2024App.swift */,
@@ -192,6 +197,7 @@
 			files = (
 				232644762B96A80700A54B95 /* Preview Assets.xcassets in Resources */,
 				2326447D2B96A8CA00A54B95 /* .gitignore in Resources */,
+				23F9F4FD2B996581005E42A2 /* README.md in Resources */,
 				232644732B96A80700A54B95 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

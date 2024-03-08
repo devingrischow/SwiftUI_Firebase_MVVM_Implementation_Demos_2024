@@ -17,12 +17,31 @@ import SwiftUI
 struct SettersExamplesView: View {
     
     //State Object For the Views View Model
-    @StateObject var viewModel = SettersViewModel() 
+    
+    @StateObject var viewModel = SettersViewModel()
     
     var body: some View {
-        BasicSetterExampleView()
-        
-        AdvancedSettersExampleView()
+        VStack{
+            Spacer()
+            
+            
+            
+            BasicSetterExampleView().environmentObject(viewModel)
+            
+            
+            
+            
+            
+            Spacer()
+            
+            
+            AdvancedSettersExampleView().environmentObject(viewModel)
+            
+            
+            
+            Spacer()
+        }
+            
     }
 }
 

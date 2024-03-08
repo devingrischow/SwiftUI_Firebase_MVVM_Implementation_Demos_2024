@@ -16,6 +16,7 @@ struct AdvancedSettersExampleView: View {
     @State private var travelValueIncrement:Int = 0
     
     
+    @EnvironmentObject var setterVM:SettersViewModel
 
     
     var body: some View {

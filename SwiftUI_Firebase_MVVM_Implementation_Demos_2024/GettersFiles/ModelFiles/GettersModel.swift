@@ -12,11 +12,11 @@ import Foundation
 struct GettersModel{
     
     
-    var pickedBook:Book
+    var pickedBook:Book = Book()
     
     
     
-    var retrivedPlace:TravelPlace
+    var retrivedPlace:TravelPlace = TravelPlace()
     
     
    

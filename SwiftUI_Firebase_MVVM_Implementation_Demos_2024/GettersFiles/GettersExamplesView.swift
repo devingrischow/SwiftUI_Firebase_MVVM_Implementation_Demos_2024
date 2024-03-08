@@ -18,10 +18,23 @@ struct GettersExamplesView: View {
 
     
     var body: some View {
-                                //Enviornment Object For The Views
-        BasicGetterExamples().environmentObject(viewModel)
-                                    //Enviornment Object For The Views
-        AdvancedGettersExampleView().environmentObject(viewModel)
+                                
+        VStack{
+            Spacer()
+            
+            //Basic Getter Examples
+            BasicGetterExamples().environmentObject(viewModel)
+            
+            Spacer()
+            
+            
+            //Advanced Getter Examples
+            AdvancedGettersExampleView().environmentObject(viewModel)
+            
+            
+            
+            Spacer()
+        }
     }
 }
 

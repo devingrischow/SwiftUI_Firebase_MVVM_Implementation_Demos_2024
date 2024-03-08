@@ -25,12 +25,16 @@ struct ContentView: View {
     
     var body: some View {
         
-        
-        TabView  {
-            GettersExamplesView().tabItem {
-                /*@START_MENU_TOKEN@*/Text("Tab Label 1")/*@END_MENU_TOKEN@*/ }.tag(1)
-            SettersExamplesView().tabItem { /*@START_MENU_TOKEN@*/Text("Tab Label 2")/*@END_MENU_TOKEN@*/ }.tag(2)
+        NavigationStack{
+        TabView {
+            GettersExamplesView().tabItem {                     Label("More", systemImage: "list.bullet")
+ }
+                
+                
+            SettersExamplesView().tabItem {                     Label("More2", systemImage: "list.bullet")}
         }
+            
+    }
     }
 }
 
