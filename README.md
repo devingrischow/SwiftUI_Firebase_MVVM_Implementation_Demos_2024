@@ -43,9 +43,9 @@ Start the database in **Test Mode**. This will let anyone access the database fo
 
 ### Heres some handy Firestore Documentation
 
--[Get Documents From Firebase](https://firebase.google.com/docs/firestore/query-data/get-data#swift_1)
--[Preform Simple and Compound Queries(array of query results)](https://firebase.google.com/docs/firestore/query-data/queries)
--[Add Data](https://firebase.google.com/docs/firestore/manage-data/add-data)
+- [Get Documents From Firebase](https://firebase.google.com/docs/firestore/query-data/get-data#swift_1)
+- [Preform Simple and Compound Queries(array of query results)](https://firebase.google.com/docs/firestore/query-data/queries)
+- [Add Data](https://firebase.google.com/docs/firestore/manage-data/add-data)
 
 
 
