@@ -75,7 +75,7 @@ class GettersViewModel:ObservableObject{
         //query the database for everything
         
         
-        let dataPoint = fs.collection("PointsOfInterest")
+        let dataPoint = fs.collection("TravelDestinations")
         
         var locationsData:[String:Any] = [:]
 
@@ -92,7 +92,10 @@ class GettersViewModel:ObservableObject{
             let randomTravelPlaceData = randomTravelPlace!.data()
             DispatchQueue.main.async {
                 self.gettersModel.retrivedPlace.placeID = randomTravelPlaceData["travelPlaceName"] as! String
-                self.gettersModel.retrivedPlace.placeID = randomTravelPlaceData["travelPlaceName"] as! String
+                self.gettersModel.retrivedPlace.placeName = randomTravelPlaceData["travelPlaceName"] as! String
+                
+                self.gettersModel.retrivedPlace.placeLocation = randomTravelPlaceData["travelDestination"] as! String
+                
                 self.gettersModel.retrivedPlace.placeValue = randomTravelPlaceData["travelValue"] as! Int
             }
             //Set the view models travel destination to the retrived value

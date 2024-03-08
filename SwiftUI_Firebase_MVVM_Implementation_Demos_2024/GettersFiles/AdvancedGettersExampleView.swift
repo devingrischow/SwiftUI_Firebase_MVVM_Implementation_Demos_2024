@@ -36,7 +36,7 @@ struct AdvancedGettersExampleView: View {
             
             
             //Place Name
-            Text(advancedExampleViewModel.getTravelLoc())
+            Text(advancedExampleViewModel.getTravelName())
             
             
             
@@ -65,7 +65,7 @@ struct AdvancedGettersExampleView: View {
             
             
             //Place Value
-            Text(advancedExampleViewModel.getTravelLoc())
+            Text(String(advancedExampleViewModel.getTravelValue()))
             
             
             
