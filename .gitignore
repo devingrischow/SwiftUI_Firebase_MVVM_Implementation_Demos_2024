@@ -28,7 +28,6 @@
 xcuserdata/
 #Ignores the users data settings thats not needed: ex bookmarks, breakpoints, etc
 
-#They will be visible only to Local Users, Best practice is to use Good Documentation
 
 
 
@@ -36,6 +35,14 @@ xcuserdata/
 #Ignores gcno Files from directory, gnco files goverate gcov coverage files, which are results from tests
 #ignore these tests in the gitUploads.
 
+
+
+# Ignore Mac DS_Store files
+.DS_Store
+**/.DS_Store
+
+#PREVENT THE UPLOAD OF ANY .DS files!
+#DS files are nothing but indexing files FOR THE MACOSX, AKA a easy way to break the github, so no matter what done let these get uploaded.
 
 
 
